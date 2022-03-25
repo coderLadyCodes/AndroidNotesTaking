@@ -7,7 +7,6 @@ import java.util.Date;
 import io.realm.RealmObject;
 
 
-// I CANNOT INSTALL REALM  why the hell is that? I've tried everything
 
 
 public class Notes extends RealmObject {
