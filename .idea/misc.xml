@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Touta/AndroidStudioProjects/Notes/app/src/main/res/drawable/rounded_corner.xml" value="0.234" />
+        <entry key="..\:/Users/Touta/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_add_note.xml" value="0.2234375" />
         <entry key="..\:/Users/Touta/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_main.xml" value="0.2234375" />
       </map>
     </option>
