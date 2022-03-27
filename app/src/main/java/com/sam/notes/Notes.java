@@ -1,7 +1,5 @@
 package com.sam.notes;
 
-import android.app.Application;
-
 import java.util.Date;
 
 import io.realm.RealmObject;
@@ -14,7 +12,7 @@ public class Notes extends RealmObject {
 
     String title;
     String text;
-    Date createdAt;
+    long createdAt;
 
     public String getTitle() {
         return title;
@@ -32,11 +30,11 @@ public class Notes extends RealmObject {
         this.text = text;
     }
 
-    public Date getCreatedAt() {
+    public long getCreatedAt() {
         return createdAt;
     }
 
-    public void setCreatedAt(Date createdAt) {
+    public void setCreatedAt(long createdAt) {
         this.createdAt = createdAt;
     }
 }
