@@ -1,5 +1,6 @@
 package com.sam.notes;
 
+import android.content.ClipData;
 import android.content.Context;
 import android.provider.ContactsContract;
 import android.view.LayoutInflater;
@@ -51,7 +52,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                 menu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                     @Override
                     public boolean onMenuItemClick(MenuItem menuItem) {
-                        if(item.getTitle().equals("DELETE")){
+                        if(menuItem.getTitle().equals("DELETE")){
                             Realm realm = Realm.getDefaultInstance();
                             realm.beginTransaction();
                             note.deleteFromRealm();
